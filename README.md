@@ -19,8 +19,18 @@ An intelligent study assistant application built with **Streamlit**, **Sentence-
    - Explains differences between Semantic Search and Keyword-Based Search.
 
 ---
+🧠 Conceptual Reference: 
+Semantic vs. Keyword Search Feature: Keyword-Based Search (e.g., BM25, TF-IDF)Semantic Search (ChromaDB + Sentence-Transformers)Matching Mechanism Exact literal string and token frequency matching.Dense vector distance proximity in high-dimensional space.
+Handling Synonyms: Fails if search terms do not match document text (e.g., searching "car" misses "automobile").
+Captures underlying conceptual intent and groups synonyms close together. 
+Context Awareness: Treats words independently or via basic n-gram frequencies.
+Evaluates sentence-level contextual semantics and multi-word meaning.
 
 ## 🚀 Setup & Execution Guide
+Prerequisites
+Python 3.10 or higher installed on your system.
+
+Git installed for version control.
 
 ### 1. Clone & Set Up Environment
 ```bash
