@@ -1,0 +1,23 @@
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environment
+venv/
+.env
+ENV/
+.venv/
+
+# Streamlit local settings & cache
+.streamlit/secrets.toml
+
+# ChromaDB local storage & logs
+*.chroma/
+chroma.sqlite3
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db

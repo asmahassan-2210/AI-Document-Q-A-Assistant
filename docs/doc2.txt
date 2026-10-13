@@ -1,0 +1,12 @@
+Understanding Sentence Embeddings and Vector Spaces
+
+In modern Natural Language Processing (NLP), text embeddings convert unstructured words, sentences, or paragraphs into dense numerical vectors in a multi-dimensional continuous space.
+
+Dense Vector Representations:
+Unlike traditional sparse representations (such as One-Hot encoding or Bag-of-Words), dense embeddings capture underlying semantic relationships between concepts. Models like sentence-transformers (e.g., all-MiniLM-L6-v2) project text into vector spaces where semantically similar sentences are positioned closely together.
+
+Distance Metrics and Proximity:
+To compare vector proximity, mathematical distance metrics are applied:
+1. Cosine Similarity: Measures the cosine of the angle between two vectors, ranging from -1 to 1 (higher values mean greater semantic similarity).
+2. Cosine Distance: Computed as (1 - Cosine Similarity). Lower values indicate closer proximity in the vector space.
+3. Euclidean Distance (L2): Measures straight-line geometric distance between vector endpoints.

@@ -1,0 +1,12 @@
+Introduction to Prompt Engineering Techniques
+
+Prompt engineering is the strategic practice of formulating text inputs to effectively guide Large Language Models (LLMs) toward generating precise and contextual responses. Standard prompting methods include Zero-Shot, Few-Shot, and Role-Based prompting.
+
+Zero-Shot Prompting:
+Zero-shot prompting involves asking an LLM to execute a task without providing explicit contextual examples in the prompt. The model relies entirely on its pre-trained parameter weights. While useful for general questions, zero-shot outputs can vary in depth and response formatting.
+
+Few-Shot Prompting:
+Few-shot prompting provides the model with 2 to 3 target input-output demonstrations before asking the actual user query. This technique significantly improves accuracy when a specific output structure, tone, or tabular format is required.
+
+Role-Based Prompting:
+Role-based prompting assigns a specific persona or system role to the model—such as "Technical Document Analyst" or "Academic Tutor." Assigning a domain role constrains the model's behavioral boundaries, reduces ungrounded hallucinations, and enforces professional analytical rigor.

@@ -1,0 +1,10 @@
+ChromaDB Vector Database Architecture
+
+ChromaDB is an open-source, developer-friendly vector database designed for storing, indexing, and retrieving high-dimensional embedding vectors alongside associated metadata and raw document text.
+
+Core Functions of ChromaDB:
+1. Collection Management: Documents and vectors are organized into logical groups called Collections.
+2. Indexing with HNSW: ChromaDB utilizes Hierarchical Navigable Small World (HNSW) graphs to enable fast, approximate nearest neighbor (ANN) search over massive vector datasets.
+3. Metadata Filtering: Allows users to query vectors while applying payload metadata constraints (such as filename, page number, or creation date).
+
+In a Retrieval-Augmented Generation pipeline, ChromaDB receives the user's query vector, performs an efficient nearest-neighbor search, and returns top-K text chunks along with similarity metrics.
